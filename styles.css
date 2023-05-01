@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    height: auto;
+    max-width: 100%;
+}
+
+header {
+    /* position:absolute; */
+    background-color: #333;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    color: lightblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+header h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+header h2 {
+  text-align: center;
+}
+
+#section-one {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: left;
+}
+
+#section-one h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+#section-one h3 {
+  font-size: x-large;
+}
+
+#section-one li {
+  margin-bottom: 20px;
+  text-decoration: dotted;
+  font-size: medium;
+}
+
+#section-two {
+    background-color: #e6e6e6;
+    padding: 50px;
+    text-align: left;
+    text-decoration: none;
+}
+
+#section-two h2{
+  font-size: x-large;
+}
+
+#section-two li {
+  margin-bottom: 15px;
+  text-decoration: dotted;
+  font-size: medium;
+  text-align: justify;
+  text-indent: 5px;
+}
+
+#section-three {
+    background-color: #d9d9d9;
+    padding: 50px;
+    text-align: left;
+}
+
+#section-three h2 {
+  font-size: x-large;
+}
+
+#section-three h3 {
+  text-align: justify;
+}
+
+#section-three p {
+  margin-bottom: 20px;
+  font-size: medium;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#box {
+  position:absolute;
+  top: 25%;
+  left: 80%;
+  bottom: 20%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 350px;
+}
+#sisters {
+  position:absolute;
+  width: 500px;
+  left: 55%;
+  opacity:0.5;
+  height: auto;
+  float: right;
+  margin: 5px;
+  top: 73%
+}
+#elders {
+  position:absolute;
+  width: 500px;
+  left: 55%;
+  opacity:0.5;
+  height: auto;
+  float: right;
+  margin: 5px;
+  top: 165%
+}
+
+footer {
+  padding:10px;
+}
